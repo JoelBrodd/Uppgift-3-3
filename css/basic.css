@@ -1,1 +1,39 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container
+    {
+      background:grey;
+      width:600px;
+      padding:20px;
+    }
+#topbar
+    {
+    background:#AA5757;
+    background-image:url('../css/pics/coffey.jpg');
+    background-size: auto;
+    width:600px;
+    height:200px;
+   } 
+#topbar p
+    {
+    text-align:right;
+    background-color:green;
+    }   
+#menu
+    {
+        
+    }
+#content
+    {
+        
+    } 
+#maincontent
+    {
+        
+    }  
+#subcontent
+    {
+        
+    }   
+#bottomcontent
+    {
+        
+    }    
