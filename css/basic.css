@@ -6,7 +6,7 @@
     }
 #topbar
     {
-    background:#AA5757;
+    background:#4F4225;
     background-image:url('../css/pics/coffey.jpg');
     background-position:bottom;
     background-repeat:no-repeat;
@@ -28,9 +28,9 @@
   
 #menu
     {
-     background:#AA5757;
+     background:#4F4225;
      width:605px;
-     height:35px;
+     height:40px;
      
      
     }
@@ -46,25 +46,28 @@
     {
         float:left;
         list-style-type:none;
-        
+        border-right:1px solid #4F4225;
+        background:#BDA278;
         
     }
 #menu ul li a
     {
         
         display:block;
-        color:black;
+        color:#767263;
         text-decoration:none;
         text-align:center;
-        height:30px;
+        height:25px;
         font-size:20px;
-        background:white;
         padding-left:10px;
         padding-right:10px;
+        padding-top:5px;
+        padding-bottom:5px;
+        
      }
 ul li a:hover
     {
-        background:green;
+        background:#F4E4C8;
     }
 #menu a
     {
@@ -83,12 +86,14 @@ ul li a:hover
        min-height:100px;
        padding-right:5px;
        width:595px;
+       background:#F4E4C8;
+       color:#767263;
     } 
 #maincontent
     {
            
        float:left; 
-       width:292px;
+       width:322px;
        height:410px;
        border-right:2px dashed #000000;
        padding-right:5px;
@@ -116,7 +121,7 @@ img
     {
         
         float:right;
-        width:291px;
+        width:261px;
         height:410px;
         padding-left:5px;
         margin-top:10px;
@@ -130,11 +135,12 @@ img
     } 
 #subcontent h2
     {
-        font-size:12px;
+        font-size:16px;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
         padding-left:5px;
+        margin:2px;
     }  
 #subcontent p
     {
@@ -150,16 +156,17 @@ img
 #subcontent ul li a
     {
        
-       color:black;
+       color:#767263;
     }    
 #subcontent ul li 
     {
-       list-style-type:none; 
+       list-style-type:none;
        
     }
 #subcontent ul 
     {
        padding-left:5px;
+       margin:2px;
        
     }    
 #bottomcontent
@@ -167,7 +174,7 @@ img
         clear:left;
         clear:right;
         width:auto;
-        color:red;
+        color:#767263;
         text-align:left;font-family: cursive;
         font-style: oblique;
         text-indent: 0ex;
