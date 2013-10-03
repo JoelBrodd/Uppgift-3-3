@@ -8,32 +8,171 @@
     {
     background:#AA5757;
     background-image:url('../css/pics/coffey.jpg');
-    background-size: auto;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-size:608px 190px;
     width:600px;
-    height:200px;
+    height:210px;
+    color:white;
+    text-align:right;font-family: cursive;
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: 100;
+	font-size: small;
+    text-decoration: none;
+	text-transform: none;
+	text-indent: 0ex;
+	padding-right:5px;
+    
    } 
-#topbar p
-    {
-    text-align:right;
-    background-color:green;
-    }   
+  
 #menu
     {
+     background:#AA5757;
+     width:605px;
+     height:35px;
+     
+     
+    }
+#menu ul
+    {
+        float:bottom;
+        height:10px;
+        margin:auto;
+        padding:5px;
+        padding-left:15px;
+    } 
+#menu ul li
+    {
+        float:left;
+        list-style-type:none;
+        
         
     }
+#menu ul li a
+    {
+        
+        display:block;
+        color:black;
+        text-decoration:none;
+        text-align:center;
+        height:30px;
+        font-size:20px;
+        background:white;
+        padding-left:10px;
+        padding-right:10px;
+     }
+ul li a:hover
+    {
+        background:green;
+    }
+#menu a
+    {
+        color:transparent;
+        margin:0px;
+        font-size:0px;
+        height:0px;
+        float:right;
+    }    
+
+
 #content
     {
         
+       padding-left:5px;
+       min-height:100px;
+       padding-right:5px;
+       width:595px;
     } 
 #maincontent
     {
+           
+       float:left; 
+       width:292px;
+       height:410px;
+       border-right:2px dashed #000000;
+       padding-right:5px;
+       margin-top:10px;
+       
+       
+    }
+#maincontent p
+    {
         
+    }    
+#maincontent h1
+    {
+        margin:10px;
     }  
+img
+    {
+        float:left;
+        margin-right:5px;
+        margin-bottom:0px;
+        margin-top:5px;
+    }    
+
 #subcontent
     {
         
+        float:right;
+        width:291px;
+        height:410px;
+        padding-left:5px;
+        margin-top:10px;
+        
     }   
+#subcontent h1
+    {
+        font-size:15px;
+        margin-top:20px;
+        padding-left:5px;
+    } 
+#subcontent h2
+    {
+        font-size:12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        padding-left:5px;
+    }  
+#subcontent p
+    {
+        font-family: serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: smaller;
+        line-height: 150%;
+        word-spacing: normal; 
+        padding-left:5px;
+    } 
+#subcontent ul li a
+    {
+       
+       color:black;
+    }    
+#subcontent ul li 
+    {
+       list-style-type:none; 
+       
+    }
+#subcontent ul 
+    {
+       padding-left:5px;
+       
+    }    
 #bottomcontent
     {
+        clear:left;
+        clear:right;
+        width:auto;
+        color:red;
+        text-align:left;font-family: cursive;
+        font-style: oblique;
+        text-indent: 0ex;
+        padding-bottom:6px;
+        font-size:10px;
+        
         
     }    
